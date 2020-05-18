@@ -5,3 +5,15 @@
 - a matcher: a function that is applied to the expected condition.
 - render: the method used to render a given component.
 
+<!-- 
+import React from 'react'
+import {render} from '@testing-library/react'
+import App from './App'
+ 
+ it('should take a snapshot', () => {
+    const { asFragment } = render(<App />)
+    
+    expect(asFragment(<App />)).toMatchSnapshot()
+   })
+});
+ -->
